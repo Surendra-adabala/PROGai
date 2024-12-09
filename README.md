@@ -40,24 +40,24 @@ pip install requests pandas seaborn matplotlib scikit-learn numpy python-dateuti
 ```
 APOD Data Collection
 
-1. ApodFetcher
+ApodFetcher
 Purpose: Fetches the Astronomy Picture of the Day (APOD) data for a specified date range.
 Key Functions:
 get_apod_info(date): Retrieves APOD data for a single date.
 download_apod_in_range(start_date, end_date): Downloads APOD data for a range of dates and stores it in a JSON file.
-2. Process Flow:
+Process Flow:
 The data is fetched from NASA's APOD API using the provided API key.
 The collected data includes:
 Date, Title, Media Type, Image Link, and Explanation.
 Iris Dataset Analysis
 
-1. ApodDataProcessor
+ApodDataProcessor
 Purpose: Processes and analyzes the collected APOD data.
 Key Functions:
 read_apod_data(): Reads the stored APOD data from a JSON file.
 analyze_apod_media(): Analyzes the number of images and videos, and finds the longest explanation.
 save_apod_to_csv(): Saves the processed APOD data to a CSV file.
-2. Iris Dataset
+Iris Dataset
 Purpose: Analyzes the Iris dataset.
 Key Functions:
 load_and_analyze_iris(): Loads the dataset and provides basic analysis (e.g., column info, flower species count).
