@@ -33,3 +33,14 @@ Follow the steps below to set up the project environment:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Surendra-adabala/PROGai.git
+
+
+NASA-APOD-Data-Analysis/
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+├── src/                # Source code
+│   ├── CA_1.py         # Script combining all four problems
+│   └── static_files/   # Static files directory
+│       ├── apod_data.json  # JSON output file (generated dynamically)
+│       └── apod_summary.csv # CSV output file (generated dynamically)
+
